@@ -1,0 +1,32 @@
+
+
+.qa-bg {
+  background-image: url('https://cdn-wlvacuk.terminalfour.net/courses/media/departments/faculty-of-science-and-engineering/course-page-top-banner-(27).png');
+  opacity: 0.25;
+}
+
+
+.chat-body{
+  .bot-message{
+    .message-content{
+      max-width: 500px;
+      background-color: #f9f9fe;
+      box-shadow: 0 0 3px #d1d2da;
+      padding: 6px 12px;
+      white-space: pre-wrap;
+      border-radius: 8px;
+    }
+  }
+  .user-message{
+    .message-content{
+      max-width: 500px;
+      color: #fff;
+      background-color: #1777ff;
+      white-space: pre-wrap;
+      max-width: 500px;
+      border-radius: 8px;
+      padding: 6px 12px;
+      box-shadow: 0 0 3px #d1d2da;
+    }
+  }
+}

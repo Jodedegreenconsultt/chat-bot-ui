@@ -1,0 +1,204 @@
+.langchain-app-header {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  gap: 20px;
+}
+.langchain-app-header .enter-details-back-to-homepage button {
+  color: white;
+}
+.langchain-app-header .enter-details-back-to-homepage button:hover {
+  background: rgba(32, 56, 66, 0.6);
+}
+
+body {
+  @apply overflow-x-hidden box-border;
+  font-family: "sofia-pro", sans-serif;
+  background: #03203C;
+  background-size: cover;
+}
+
+main {
+  @apply h-[100vh] overflow-hidden;
+  padding-top: 80px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "sofia-pro", sans-serif;
+}
+
+.Toastify__toast-container {
+  width: 471px;
+  height: 230px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.Toastify__toast-container::-webkit-scrollbar {
+  width: 3.5px;
+  position: relative;
+  right: -24px;
+}
+.Toastify__toast-container::-webkit-scrollbar-track {
+  background: transparent;
+  position: relative;
+  right: -24px;
+}
+.Toastify__toast-container::-webkit-scrollbar-thumb {
+  background: rgba(10, 10, 38, 0.8);
+  border-radius: 5px;
+  position: relative;
+  right: -24px;
+}
+.Toastify__toast-container > div {
+  background: rgba(10, 10, 38, 0.8);
+  box-shadow: 0px 4px 10px rgba(10, 10, 47, 0.52);
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  border-radius: 4px;
+}
+.Toastify__toast-container > div .Toastify__close-button {
+  opacity: 1;
+  align-self: auto;
+}
+.Toastify__toast-container > div .Toastify__close-button svg {
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(52, 37, 95);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(75, 75, 108);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b69c9c;
+}
+
+.google-search-container .query-component {
+  max-width: 700px;
+  margin: auto;
+  border-bottom: 3px solid #285068;
+  margin: 40px auto;
+  padding: 10px;
+}
+.google-search-container .query-component .input-field {
+  outline: none;
+  background: none;
+}
+
+
+.slick-slider.slick-initialized button {
+  display: none !important;
+}
+
+.file-uploader {
+  border-radius: 3px;
+  background: #0a0a26;
+  box-shadow: 0 0 20px rgba(88, 196, 242, 0.5), 0 0 50px rgba(42, 45, 46, 0.5);
+}
+.file-uploader .content {
+  display: flex;
+  height: calc(100% - 71px);
+  flex-direction: column;
+  padding: 25px 0px;
+}
+.file-uploader .content .upload-box {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 194px;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgb(75 75 108/var(--tw-border-opacity));
+  background: hsla(0, 0%, 100%, 0.03);
+}
+.file-uploader .content .interaction-button-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  --tw-border-opacity: 1;
+  border-top: 1px rgb(75 75 108/var(--tw-border-opacity));
+  border-style: solid;
+  padding-top: 20px;
+}
+.file-uploader .content .interaction-button-panel .upload-button {
+  height: 38px;
+  width: 90%;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 18px;
+  color: black;
+}
+.file-uploader .content .interaction-button-panel .upload-button:hover {
+  opacity: 0.7;
+}
+
+.summary-result-container {
+  height: 800px;
+  padding-top: 20px;
+}
+.summary-result-container .summary-content {
+  overflow-y: auto;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.summary-result-container {
+  height: 800px;
+  padding-top: 20px;
+}
+.summary-result-container .summary-content {
+  overflow-y: auto;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.qa-chat-container {
+  z-index: 1;
+  max-height: calc(90vh - 190px);
+}
+
+.qa-bg {
+  background-image: url("https://cdn-wlvacuk.terminalfour.net/courses/media/departments/faculty-of-science-and-engineering/course-page-top-banner-(27).png");
+  opacity: 0.25;
+}
+
+@media only screen and (min-width: 1281px) {
+  .qa-chat-container {
+    max-height: calc(75vh - 70px);
+  }
+}/*# sourceMappingURL=main.css.map */
+
